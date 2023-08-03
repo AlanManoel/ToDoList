@@ -5,6 +5,12 @@
 - Adicionar tarefas à lista.
 - Remover tarefas da lista.
 
+### Screenshots
+<div>
+    <img src="./assets/img/todolistPC.png" alt="ScreePC">
+    <img src="./assets/img/todolistMOBILE.png" alt="ScreeMOBILE" height='500px'>
+</div>
+
 ### Instalação:
 
 #### Clone o repositório em sua máquina local.
@@ -12,7 +18,6 @@
 
 #### Navegue até o diretório do projeto.
 - cd ToDoList
-  
 
 ### Contribuição:
 #### Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
