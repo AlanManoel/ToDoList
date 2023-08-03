@@ -1,4 +1,4 @@
-# ToDoList
+# Lista de tarefas
 ### Este projeto contém uma aplicação de lista de tarefas (ToDoList) desenvolvida em HTML, CSS e JavaScript.
 
 ### Funcionalidades:
