@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #1A1A1A;
+    --gray-color: #2B2B2B;
+    --light-gray: #424242;
+    --color-letter: #F5F5F5;
+    --blue-color: #617FEC;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--color-letter);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: var(--color-letter);
+    background-color: var(--blue-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5.5px;
+    height: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8125rem;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 300ms;
+    background-color: #414f83;
+}
+
+main img {
+    width: 345px;
+    height: 324px;
+    margin-right: 120px;
+}
+
+.conteiner-list {
+    background-color: var(--gray-color);
+    width: 429px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0 32px 0;
+}
+
+.conteiner-list h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.linha {
+    background-color: var(--blue-color);
+    width: 306px;
+    height: 2px;
+    margin-bottom: 32px;
+}
+
+.conteinter-entrada {
+    margin-bottom: 32px;
+}
+
+.conteinter-entrada input {
+    width: 224px;
+    height: 36px;
+    background-color: var(--color-letter);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 4px;
+    margin-right: 8px;
+}
+
+.conteiner-list li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.conteiner-tarefas p {
+    background-color: var(--light-gray);
+    height: 36px;
+    width: 281px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-tarefas div {
+    display: flex;
+}
+
+.conteiner-tarefas ul {
+    overflow-y: auto;
+}
+
+.conteiner-tarefas ul {
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.conteiner-tarefas ul::-webkit-scrollbar {
+    width: 0px;
+}
