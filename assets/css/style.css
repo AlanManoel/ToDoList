@@ -117,4 +117,5 @@ main img {
 
 .conteiner-tarefas ul::-webkit-scrollbar {
     width: 0px;
+    height: 1px;
 }
